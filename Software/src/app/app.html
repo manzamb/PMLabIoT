@@ -1,0 +1,15 @@
+<ion-menu [content] = "NAV">
+    <ion-content>
+        
+        <img src="/assets/images/logoUnicauca.png" alt="www.unicauca.edu.co">
+        
+        <ion-list>
+            <button color="dark" ion-item *ngFor = "let page of pages" (click)="irPagina(page.componente)" menuClose>
+                <ion-icon item-left name="{{page.icono}}"></ion-icon>
+                {{page.titulo}}
+            </button>                      
+        </ion-list>
+    </ion-content>
+</ion-menu>
+
+<ion-nav #NAV [root]="rootPage"></ion-nav>

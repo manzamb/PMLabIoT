@@ -1,0 +1,11 @@
+{
+  "name": "emp_softec",
+  "app_id": "aaa8d481",
+  "type": "ionic-angular",
+  "proxies": [
+    {
+      "path": "/sensorAPI",
+      "proxyUrl": "http://192.168.121.88/sensorAPI"
+    }
+  ]
+}

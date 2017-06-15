@@ -1,0 +1,59 @@
+<!--
+  Generated template for the Inicio page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button> 
+    <ion-title>Inicio</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <img src="" alt=""/>
+  <h2>Estación de Monitoreo Portatil</h2>  
+  <ion-grid>
+    <ion-row>
+      <ion-col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6>
+        <button class="boton_inicio" ion-button  round block icon-left color="primary" (click)="irPagina(1)">
+          <ion-icon name="power"></ion-icon>
+          apagar
+        </button>
+      </ion-col>
+      <ion-col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6>
+        <button class="boton_inicio" ion-button  round block icon-left color="primary" (click)="irPagina(2)">
+          <ion-icon name="wifi"></ion-icon>
+          sensores
+        </button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6>
+        <button class="boton_inicio" ion-button  round block  icon-left color="primary" (click)="irPagina(3)">
+          <ion-icon name="stats"></ion-icon>
+          graficas
+        </button>
+      </ion-col>
+      <ion-col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6>
+        <button class="boton_inicio" ion-button  round block icon-left color="primary" (click)="irPagina(4)">
+          <ion-icon name="time"></ion-icon>
+          temporizador
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>  
+</ion-content>
+
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Unicauca - IoT</ion-title>
+  </ion-toolbar>
+</ion-footer>
